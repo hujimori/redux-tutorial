@@ -3,7 +3,7 @@ import {render} from 'react-dom'
 import {Provider} from 'react-redux'
 import {createStore} from 'redux'
 import rootReducer from './reducers'
-import App from './components/App'
+import App from './components/'
 
 const store = createStore(rootReducer)
 
@@ -13,4 +13,5 @@ render(
     </Provider>,
     document.getElementById('root')
 )
+
 
